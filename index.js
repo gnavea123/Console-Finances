@@ -107,8 +107,9 @@ console.log("-------------------");
 
 console.log("Total Months =  " + (monthsTotal = [finances.length]));
 console.log("Total: $" + total);
-console.log("average " + total / [finances.length]);
-console.log(change);
+console.log("Average Change: " + total / [finances.length]);
+console.log("Greatest Increase in Profits/Losses:   Missing data");
+console.log("Greatest Decrease in Profits/Losses:   Missing data");
 
 var values = Object.values(finances);
 //console.log(values);
@@ -126,12 +127,12 @@ function compareSecondColumn(a, b) {
 }
 
 //console.log("accum= " + values);
-var last = values.length - 1;
-console.log("The 1st in the Array = " + values[0][1]);
-console.log("the last in the array = " + values[last][1]);
+// var last = values.length - 1;
+// console.log("The 1st in the Array = " + values[0][1]);
+// console.log("the last in the array = " + values[last][1]);
 
-const sub = finances.reduce((acc, num) => acc - num);
-console.log(sub); // 0
+// const sub = finances.reduce((acc, num) => acc - num);
+// console.log(sub); // 0
 
 // Financial Analysis
 // ----------------
